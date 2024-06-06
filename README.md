@@ -1,10 +1,10 @@
 # FIAP 3SIR: GS1SEM Angular
 
-##Team:
+## Team:
 
-###Hugo Ramoz - RM95475
-###João Victor Rossi - RM92962
-###Lucas Cabral - RM94954
+### Hugo Ramoz - RM95475
+### João Victor Rossi - RM92962
+### Lucas Cabral - RM94954
 
 # AngularApp - Instruction to execute
 
