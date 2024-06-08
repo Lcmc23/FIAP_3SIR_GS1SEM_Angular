@@ -1,4 +1,4 @@
 export interface Especie {
-    nome?: string;
-    status?: string;
+    nome: string;
+    status: string;
 }

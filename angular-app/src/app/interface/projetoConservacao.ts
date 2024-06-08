@@ -1,5 +1,5 @@
 export interface projetoConservacao {
-    nomeProjeto?: string;
-    tipoProjeto?: string;
-    tipoParticipacao?: string   
+    nomeProjeto: string;
+    tipoProjeto: string;
+    tipoParticipacao: string   
 }
