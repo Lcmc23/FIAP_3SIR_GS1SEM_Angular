@@ -34,6 +34,11 @@ Recomendamos utilizar no primeiro carregamento (para exibição de todos os dado
 
 ## Prints Funcionamento
 
+<h1>
+    <h1 align="center">
+    <img src="https://drive.google.com/file/d/1Hm1vtiYxlQk95KUmRBLcnPZpU_agUT8L/view?usp=drive_link)" height="400" width="800">
+</h1>
+
 ![filtroAll](https://drive.google.com/file/d/1Hm1vtiYxlQk95KUmRBLcnPZpU_agUT8L/view?usp=drive_link)
 
 ![filtroExibindoRegioes](https://drive.google.com/file/d/1UAP9KuRhZVvwvJDRahfckZkpC5YF7WJQ/view?usp=drive_link)
