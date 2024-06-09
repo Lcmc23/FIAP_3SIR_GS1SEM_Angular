@@ -2,7 +2,7 @@ import { FiltroService } from './filtro.service';
 import { FiltroComponent } from './../components/filtro/filtro.component';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 import { todosDados } from '../interface/todosDados';
 
 @Injectable({
@@ -14,10 +14,17 @@ export class TabelaService {
 
     infos: todosDados[] = []
 
+    private listaFiltradaSubject = new BehaviorSubject<todosDados[]>([]);
+    listaFiltrada$ = this.listaFiltradaSubject.asObservable();
+
     constructor(private http: HttpClient, private filtroService: FiltroService) { }
 
     listar(): Observable<todosDados[]>{
         return this.http.get<todosDados[]>(this.apiUrl) as Observable<todosDados[]>;
+    }
+
+    atualizarListaFiltrada(lista: todosDados[]): void {
+        this.listaFiltradaSubject.next(lista);
     }
 
     calcularDados(infos: todosDados[]) {
