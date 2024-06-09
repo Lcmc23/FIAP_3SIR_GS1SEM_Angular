@@ -36,17 +36,30 @@ Recomendamos utilizar no primeiro carregamento (para exibição de todos os dado
 
 <h1>
     <h1 align="center">
-    <img src="https://drive.google.com/file/d/1Hm1vtiYxlQk95KUmRBLcnPZpU_agUT8L/view?usp=drive_link)" height="400" width="800">
+    <img src="https://i.ibb.co/zs0QczN/filtro-All.jpg" height="400" width="800">
 </h1>
 
-![filtroAll](https://drive.google.com/file/d/1Hm1vtiYxlQk95KUmRBLcnPZpU_agUT8L/view?usp=drive_link)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/J2TrWSs/filtro-Exibindo-Regioes.jpg" height="400" width="800">
+</h1>
 
-![filtroExibindoRegioes](https://drive.google.com/file/d/1UAP9KuRhZVvwvJDRahfckZkpC5YF7WJQ/view?usp=drive_link)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/qC9LVZq/filtro-Exibindo-Especies.jpg" height="400" width="800">
+</h1>
 
-![filtroExibindoEspecies](https://drive.google.com/file/d/1vIPmayoZ181Kf6GhPdWlhrej6a_3cZwA/view?usp=drive_link)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/cF4cCwq/filtro-Exibindo-Status-Conservacao.jpg" height="400" width="800">
+</h1>
 
-![filtroExibindoStatusConservacao](https://drive.google.com/file/d/1kT_aCSybAVtr0ggdj8yWCJG764gZNp-P/view?usp=drive_link)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/mTR8cwG/filtro-Combinacao.jpg" height="400" width="800">
+</h1>
 
-![filtroCombinacao](https://drive.google.com/file/d/1TsbyImFDANFAmeFCUBpzPp9bBE9n40tH/view?usp=drive_link)
-
-![filtroCombinacao2](https://drive.google.com/file/d/1udPzl2rL81XLsylZGE_towHLyae2DTUz/view?usp=drive_link)
+<h1>
+    <h1 align="center">
+    <img src="https://i.ibb.co/MPqNy5v/filtro-Combinacao2.jpg" height="400" width="800">
+</h1>
