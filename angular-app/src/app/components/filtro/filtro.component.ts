@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 })
 export class FiltroComponent {
   infos: todosDados[] = []
+  listaFiltrada: todosDados[] = []
   regioes: string[] = []
   species: string[] = []
   status: string[] = []
@@ -22,10 +23,15 @@ export class FiltroComponent {
 
    listar(): void{
      this.tabelaService.listar().subscribe((item) => (this.infos = item));
-     this.regioes = this.filtroService.distinctRegiao(this.infos);
-     this.species = this.filtroService.distinctSpecie(this.infos);
-     this.status = this.filtroService.distinctStatus(this.infos);
+     this.regioes = this.filtroService.distinctData(this.infos, 0);
+     this.species = this.filtroService.distinctData(this.infos, 1);
+     this.status = this.filtroService.distinctData(this.infos, 2);
+   }
 
+   filtrar(): void {
+    this.listaFiltrada = this.tabelaService.calcularDados(this.infos) // Retorno do método calcularDados retorna a lista filtrada
+    // Não sobscrever os dados da lista infos que está no filtro componente (nesta classe) porque toda vez que o usuário filtrar algo diferente ele precisa fazer o filtro na lista original
+    console.log(this.listaFiltrada); // Pode apagar, aqui é só para vc ver o console do google com a lista filtrada
    }
 
   ngOnInit(): void {

@@ -3,19 +3,19 @@
         <label for="region">Region</label>
         <select id="region" name="region">
             <option value="all">All</option>
-            <option value="region" *ngFor="let regiao of regioes">{{regiao}}</option>
+            <option value="{{regiao}}" *ngFor="let regiao of regioes">{{regiao}}</option>
         </select>
 
         <label for="species">Species</label>
         <select id="species" name="species">
             <option value="all">All</option>
-            <option value="specie" *ngFor="let specie of species">{{specie}}</option>
+            <option value="{{specie}}" *ngFor="let specie of species">{{specie}}</option>
         </select>
 
         <label for="conservationStatus">Conservation Status</label>
         <select id="conservationStatus" name="conservationStatus">
             <option value="all">All</option>
-            <option value="specie" *ngFor="let st of status">{{st}}</option>
+            <option value="{{st}}" *ngFor="let st of status">{{st}}</option>
         </select>
 
         <label for="waterTemperature">Water Temperature</label>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="button-container">
-        <button type="submit">Search</button>
+        <button type="button" (click)="filtrar()">Search</button>
     </div>
 
     <p></p>

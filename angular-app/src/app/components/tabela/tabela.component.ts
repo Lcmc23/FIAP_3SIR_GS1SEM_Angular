@@ -1,3 +1,4 @@
+import { FiltroService } from './../../services/filtro.service';
 import { Component } from '@angular/core';
 import { todosDados } from '../../interface/todosDados';
 import { TabelaService } from '../../services/tabela.service';
@@ -12,6 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 export class TabelaComponent {
   infos: todosDados[] = []
+  novaLista: todosDados[] = []
 
    constructor(private tabelaService: TabelaService){ }
 
